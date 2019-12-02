@@ -6,30 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Youtube</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div class="content">
-      <header>
-        <nav class="navbar">
-          <div class="navbar-center">
-            <span class="nav-icon">
-              <i class="fas fa-bars"></i>
-              <img src="./images/images (1).png" alt="youtubelogo" />
-            </span>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-left">
+          <i class="fa fa-bars" ></i>
+          <img src="./images/images_(1).png" alt="youtubelogo" />
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search" />
+          <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="navbar-right">
+          <i class="fa fa-video-camera" ></i>
+          <i class="fa fa-bell"></i>
+          <i class="fa fa-user-circle"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="iframe">
+        <div class="video">
+          <iframe width="966" height="543" src="https://www.youtube.com/embed/cSJGfP2INVo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="infos">
+          <h1>
+            Kigali, the cleanest city in Africa, most likely to host the 2025
+            World cycling Championship
+          </h1>
+          <div class="likes">
+            <p>6,688 views • Sep 27, 2019</p>
+            <div class="icons">
+              <i class="fa fa-thumbs-up"></i>
+              <span>49</span>
+              <i class="fa fa-thumbs-down"></i>
+              <span>2</span>
+              <i class="fa fa-share"></i>
+              <span>SHARE</span>
+              <i class="fa fa-inbox"></i>
+              <span>SAVE</span>
+            </div>
           </div>
-        </nav>
-      </header>
-      <main>
-        <iframe
-          class="iframe"
-          width="920"
-          class="video"
-          height="385"
-          src="https://www.youtube.com/embed/cSJGfP2INVo"
-          frameborder="0"
-          allow="autoplay;fullscreen"
-        ></iframe>
-      </main>
-    </div>
+          <hr />
+          <div class="video-title">
+            <img src="images/kigali.jpg" alt="profileImage"/>
+            <div class="video-text">
+              <p>
+                E M Sports TV
+              </p>
+              <p>23.9K subscribers</p>
+              <div class="category">
+                <p>Category</p>
+                <p class="sport">Sports</p>
+              </div>
+            </div>
+            <button class="sub-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="aside">
+        <div class="playlist-item">
+          <iframe width="168" height="94" src="https://www.youtube.com/embed/FyZQeZAQ4ho" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="video-description">
+            <p class="video-title">Empty Crown</p>
+            <p class="video-info">MrSuicideSheep</p>
+            <p class="video-info">13.9M views</p>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <iframe width="168" height="94" src="https://www.youtube.com/embed/FyZQeZAQ4ho" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="video-description">
+            <p class="video-title">Empty Crown</p>
+            <p class="video-info">MrSuicideSheep</p>
+            <p class="video-info">13.9M views</p>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <iframe width="168" height="94" src="https://www.youtube.com/embed/FyZQeZAQ4ho" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="video-description">
+            <p class="video-title">Empty Crown</p>
+            <p class="video-info">MrSuicideSheep</p>
+            <p class="video-info">13.9M views</p>
+          </div>
+        </div>
+        <div class="playlist-item">
+          <iframe width="168" height="94" src="https://www.youtube.com/embed/FyZQeZAQ4ho" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="video-description">
+            <p class="video-title">Empty Crown</p>
+            <p class="video-info">MrSuicideSheep</p>
+            <p class="video-info">13.9M views</p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
