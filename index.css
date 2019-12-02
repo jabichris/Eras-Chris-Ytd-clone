@@ -1,7 +1,171 @@
-.content {
+html{
+  max-width: 100%;
+  font-size: 15px;
+}
+main {
+  height: auto;
+  margin-top: 5%;
+  background-color: #f9f9f9;
+  display: flex;
+}
+header {
+  margin-top: 2%;
+}
+.playlist-item {
+  display: flex;
+}
+.navbar-left{
+  display: flex;
+  align-items: center;
+}
+.navbar-left i{
+  margin: 0 16px 0 0;
+  font-size:24px;
+  color: #606060;
+}
+.navbar-left img{
+  height: 34px;
+  width: 100px;
+}
+.search button{
+  cursor: pointer;
+  width: 65px;
+  height: 36px;
+  border: 1px solid #d3d3d3;
+  padding-top: 2px;
+  margin-left: -5px;
+}
+.search button:hover{
+  border-color: #c6c6c6;
+  background-color: #f0f0f0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.10);
+}
+.container {
+  padding: 10px;
+  display: inline;
+}
+.likes {
+  display: flex;
+}
+.likes p {
+  display: block;
+  max-height: 2.1rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #606060;
+}
+i {
+  font-size: 125%;
+}
+.navbar-center {
+  float: left;
+}
+.search {
   margin: auto;
   width: 60%;
 }
 .iframe {
+  width: 70%;
+}
+iframe {
   margin: auto;
+}
+.icons i {
+  margin-left: 10px;
+  color: #606060;
+}
+.icons span{
+  margin-left: 3px;
+}
+.icons {
+  padding-top: 18px;
+  display: flex;
+  float: right;
+  margin-left: 50%;
+  margin-top: 10px;
+}
+.search input {
+  width: 400px;
+  height: 30px;
+  margin-left: 40px;
+}
+.video {
+  margin: auto;
+  width: 100%;
+}
+.aside {
+  width: 30%;
+  float: right;
+  margin-left: 1%;
+}
+.sub-btn {
+  background: #cc0000;
+  color: #fff;
+  font-size: 1rem;
+  height: 2rem;
+  width: 7rem;
+  border: 2px solid #cc0000;
+  margin: 1rem 0.2rem 0 auto;
+  float: right;
+}
+.video-description {
+  margin-right: 102px;
+  font-family: "Roboto", sans-serif, "Montserrat", sans-serif;
+}
+.video-title {
+  display: flex;
+  font-family: "Roboto", sans-serif, "Montserrat", sans-serif;
+}
+.video-title img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+.video-info{
+  color: #606060;
+}
+.video-text {
+  width: 300px;
+  margin-left: 19px;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  height: 4rem;
+}
+.category {
+  display: flex;
+}
+.sport {
+  float: right;
+  margin-left: 64px;
+  color: blue;
+}
+.navbar-right {
+  display: flex;
+}
+.navbar-right i {
+  font-size: 125%;
+  color: #606060;
+  margin: auto 0.5em auto 0.5em;
+  width: 24px;
+}
+.infos h1 {
+  font-weight: 400;
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+}
+.thumbnail{
+width: 200px;  
+border: 1px solid #ddd;
+border-radius: 2px;
+margin: 5px;
+}
+.thumbnail:hover {
+  box-shadow: 0 0 2px 1px #606060;
 }
