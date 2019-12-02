@@ -11,7 +11,7 @@
 
 #### Live Demo
 
-Live Demo Link
+[Live Demo Link](https://raw.githack.com/jabichris/Eras-Chris-Ytd-clone/ft-finished-clone/index.html)
 
 #### Getting Started
 
